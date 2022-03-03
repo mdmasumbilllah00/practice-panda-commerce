@@ -51,9 +51,7 @@
     z-index: 10;
     
 }
-.catagoris{
-    height: 70px;
-}
+
 .catagori{
     border-radius:30px;
     height: 50px;
@@ -62,6 +60,9 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: #fc9363 ;
 }
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .catagori-image{
     height: 40px;
     width: 40px;
@@ -69,4 +70,22 @@
     padding: 2px;
     background-color:#fdddce ;
     overflow: hidden;
+}
+.card-title{
+    transition-duration:.3s ;
+}
+.card-title:hover{
+    color: #00b8dd;
+}
+.prize{
+    color: #ff9408;
+}
+.card-footer i ,.card-body i{
+    color: #ffe208;
+    font-size: 10px;
+}
+.last-link{
+    font-size: 12px;
+    padding: 0;
+    list-style-type: none;
 }
